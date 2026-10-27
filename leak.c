@@ -10,6 +10,6 @@ int main(void) {
     numbers[0] = 42;
     printf("Number: %d\n", numbers[0]);
 
-    // ZEİFLİK: ayrılmış yaddaş azad edilmir
+    free(numbers);
     return 0;
 }
